@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;700&display=swap');
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #495E57;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    height: 350px;
+    width: 100%;
+}
+.hero_details{
+    margin-top: 50px;
+}
+.hero_image img{
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+}
+.hero_details h1{
+    margin: 0;
+    color: #F4CE14;
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 0.2;
+}
+.hero_details h2{
+    color: #ffffff;
+    font-family: 'Markazi Text', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 0;
+}
+.hero_details p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.hero_details a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F4CE14;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.menu_title{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 160px;
+}
+.menu_title h2{
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+.menu_title a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F4CE14;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.menu_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.testimonial_section{
+    margin-top: 150px;
+}
+.testimonial_title h2{
+    text-align: center;
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+.testimonial_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.About_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F4CE14;
+    padding: 30px 10px;
+    margin-top: 150px;
+}
+
+.about_image img{
+    width: 400px;
+    
+    object-fit: cover;
+}
+.about_text h2{
+    color: #000000;
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 0;
+}
+.about_text h3{
+    font-family: 'Markazi Text', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 0;
+}
+.about_text p{
+    font-size: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;700&display=swap');
+.menu_card{
+    display: flex;
+    flex-direction: column;
+    background-color: #edefee;
+    width: 270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.menu_details{
+    padding: 20px;
+}
+.menu_card img{
+    width: 270px;
+    height: 185px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.menu_heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+}
+.menu_details h3 {
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 0;
+}
+.menu_details p{
+    color: #495E57;
+    font-size: 16px;
+}
+.menu_details a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}

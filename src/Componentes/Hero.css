@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;700&display=swap');
+
+.hero_content {
+  background-color: #495E57;
+  padding: 20px;
+}
+
+.hero_headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_headings h1 {
+  color: #F4CE14;
+  font-family: 'Markazi Text', serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 0;
+}
+
+.hero_headings h3 {
+  font-family: 'Markazi Text', serif;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+.hero_headings p {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 0;
+}
+
+.hero_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin-top: 15px;
+}
+
+.hero_images img {
+  width: 430px;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .hero_headings h1 {
+    font-size: 40px;
+  }
+
+  .hero_headings h3 {
+    font-size: 26px;
+  }
+
+  .hero_headings p {
+    font-size: 24px;
+  }
+
+  .hero_images {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hero_images img {
+    width: 100%;
+  }
+}
